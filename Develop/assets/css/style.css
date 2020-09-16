@@ -20,7 +20,7 @@ body {
     font-size: 48px;
 }
 
-h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -34,10 +34,6 @@ h1 .seo {
 
 .header div ul {
     list-style-type: none;
-}
-
-ul {
-    position: relative;
 }
 
 .header div ul li {
@@ -54,15 +50,6 @@ p {
     font-size: 16px;
 }
 
-/*#digital-marketing-meeting {
-    height: 1000px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-*/
 .hero {
     height: 800px;
     width: 100%;
@@ -70,7 +57,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-} 
+}
 
 .float-left {
     float: left;
@@ -174,16 +161,16 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/*.online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
-    max-height: 200px;
+    max-height: 200px;*/
 }
 
 .search-engine-optimization h2 {
@@ -211,9 +198,3 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
